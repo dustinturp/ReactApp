@@ -56,6 +56,7 @@ li {
 
 .about-me-text {
   padding: 40px;
+  word-wrap: normal;
 }
 
 /* @keyframes App-logo-spin {
@@ -66,3 +67,313 @@ li {
     transform: rotate(360deg);
   }
 } */
+
+/* header section start */
+header {
+  padding: 20px 35px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-position: 80%;
+  z-index: 9999;
+
+}
+
+header a {
+  text-decoration: none; 
+  color: var(--tertiary-color);
+}
+header nav {
+  margin: 7px  0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li {
+  display:inline;
+}
+
+header nav ul li a {
+  /* space header options */
+  padding: 10px 15px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+header nav ul li a:hover {
+  background: var(--tertiary-color);
+  color: var(--primary-color);
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+ul {
+  /* remove bullets from the list */
+  list-style-type: none;
+
+}
+/* header section end */
+
+/* hero img */
+/* .hero {
+  background-image: url("./components/Projects/assets/img/utah.JPG");
+  max-width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 650px;
+}
+.hero h1 {
+  font-size: 52px;
+  width: 100%;   */
+/* } */
+/* .hero h2 {
+  font-size: 30px;
+  width: 100%;
+} */
+
+.page-title {
+  background:rgba(250, 244, 244, .4);
+  border-radius: 15px 50px;
+  padding: 20px;
+
+}
+/* hero section end */
+
+
+/* section titles */
+.section-title-container {
+  display: flex;
+}
+
+.section-title {
+  font-size: 46px;
+  width: 100%;
+  text-align: center;
+
+}
+
+/* about me section */
+#about-me {
+  background-color: var(--primary-color);
+  padding: 20px;
+}
+
+.column-flow {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  align-items: center;
+
+}
+
+.about-me-img {
+  background-image: url("./components/Projects/assets/img/dt_seattle.jpg");
+  border-radius: 50%;
+  border: 2px solid wheat;
+  background-size: cover;
+  justify-self: center;
+  height: 150px;
+  width: 150px;
+  padding: 20px;
+}
+
+.about-me-text {
+  display: flex;
+  flex: 2 30%;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+/* .about-me-text a {
+  
+} */
+/* end about me */
+
+/* project section */
+#projects {
+  padding: 20px;
+  background-color: var(--tertiary-color);
+}
+.projects-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  display: inline-flex;
+  text-align: center;
+
+}
+
+.project {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 2 50%;
+  align-content: center;
+  
+}
+.project a {
+
+}
+
+.project h3 {
+  text-align: center;
+  padding: 20px;
+}
+
+.project a {
+  color: black; 
+}
+
+/* figure out way to only add opacity to img and not text */
+/* .prj-img {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;  
+} */
+
+.prj-img {
+  height: 55vh;
+  width: 55vh;
+  border-radius: 50%;  
+}
+
+.prj-img:hover {
+  height: 55vh;
+  width: 55vh;
+  border-radius: 50%;
+  filter: grayscale(40%);
+  filter: drop-shadow(0 0 0.75rem rgb(233, 170, 33));
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.project-text {
+  padding: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0%;
+  /* height: 55vh;
+  width: 55vh; */
+  border-radius: 50%;
+}
+
+.project-text:hover {
+  opacity: 100%;
+  color: antiquewhite;
+  transition: opacity 1s ease-in-out;
+  /* background: rgba(16, 54, 57, 0.5); */
+  border-radius: 50%;
+  background: rgba(16, 54, 57, 0.9);
+  /* height: 55vh;
+  width: 55vh; */
+}
+
+
+#landmarks-img {
+  background:rgba(0,0,255,0.9) url("./components/Projects/assets/img/lm_prj_img.png");
+  background-size: cover;
+}
+
+
+#calls-to-service:hover {
+  /* padding-top: 80px; */
+  filter: drop-shadow(0 0 0.75rem rgb(233, 170, 33));
+  
+
+} 
+
+#calls_img {
+  background:rgba(0,0,255,0.6) url("./components/Projects/assets/img/calls_serv.png");
+  background-size: cover;
+  filter: blur(0); 
+}
+
+#meet-me-outdoors-img {
+  background:rgba(0,0,255,0.6) url("./components/Projects/assets/img/outdoors.png");
+  background-size: cover;
+}
+
+#meet-me-outdoors-text:hover {
+  /* padding-top: 120px; */
+}
+
+
+#run-bud-img {
+  background:rgba(0,0,255,0.6) url("./components/Projects/assets/img/run-bud.png");
+  background-size: cover;
+}
+
+
+#run-bud-text:hover {
+  background: rgba(16, 54, 57, 0.9);
+  /* padding-top: 140px; */
+}
+
+#pedestrian-img {
+  background:rgba(0,0,255,0.6) url("./components/Projects/assets/img/pedestrian-img.png");
+  background-size: cover;
+}
+
+
+#pedestrian-text:hover {
+  background: rgba(16, 54, 57, 0.9);
+  /* padding-top: 125px; */
+}
+
+/* end project section
+
+/* contact section */
+
+#contact-me h2 {
+  padding-top: 15px;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact-social {
+  padding: 60px;
+}
+.contact-social h3 {
+  font-size: 20px;
+}
+
+.contact-social a {
+
+}
+.contact-social div {
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+
+}
+
+.contact-social img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+/* contact social end */
+
