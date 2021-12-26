@@ -21,7 +21,7 @@ function App() {
       <div className="contact">
       <Contact />
       </div>
-
+      <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/build/ol.js"></script>
     </div>
   );
 }
