@@ -1,7 +1,3 @@
-const Projects = () => {
-    return (
-        <p>Hey</p>
-    )
-}
+import Projects from './Projects'
 
 export default Projects;

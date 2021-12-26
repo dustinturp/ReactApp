@@ -1,7 +1,5 @@
-const Contact = () => {
-    return (
-        <p>Hey</p>
-    )
-}
+import Contact from "./Contact";
+
+
 
 export default Contact;

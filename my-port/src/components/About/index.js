@@ -1,7 +1,3 @@
-const About = () => {
-    return (
-        <p>Hey</p>
-    )
-}
+import About from "./About";
 
 export default About;
