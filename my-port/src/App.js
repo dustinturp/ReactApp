@@ -11,10 +11,16 @@ function App() {
       <Nav />
       </header>
       <main>
+        <div className="about-me">
       <About />
+      </div>
+      <div className="projects">
       <Projects />
+      </div>
       </main>
+      <div className="contact">
       <Contact />
+      </div>
 
     </div>
   );
