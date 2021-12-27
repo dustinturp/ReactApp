@@ -331,6 +331,20 @@ ul {
   background-size: cover;
 }
 
+#Linkedin-logo {
+  background:rgba(255, 255, 255, 0.6) url("./components/Contact/assets/img/LI-In-Bug.png");
+  background-size: cover;
+}
+
+#github-logo {
+  background:rgba(254, 254, 254, 0.6) url("./components/Contact/assets/img/GitHub-Mark-120px-plus.png");
+  background-size: cover;
+}
+
+#meetup-logo {
+  background:rgba(255, 255, 255, 0.6) url("./components/Contact/assets/img/meetup-logo-m-swarm.png");
+  background-size: cover;
+}
 
 #pedestrian-text:hover {
   background: rgba(16, 54, 57, 0.9);
@@ -356,9 +370,6 @@ ul {
   font-size: 20px;
 }
 
-/* .contact-social a {
-
-} */
 .contact-social div {
   justify-content: center;
   height: 50px;
