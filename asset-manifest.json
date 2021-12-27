@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ReactApp/static/css/main.38d084b0.css",
+    "main.js": "/ReactApp/static/js/main.cd39c7b2.js",
+    "static/js/787.742825f3.chunk.js": "/ReactApp/static/js/787.742825f3.chunk.js",
+    "static/media/dt_seattle.jpg": "/ReactApp/static/media/dt_seattle.521218f07f5e0a68f292.jpg",
+    "static/media/outdoors.png": "/ReactApp/static/media/outdoors.75e9e543851f2d192cf2.png",
+    "static/media/lm_prj_img.png": "/ReactApp/static/media/lm_prj_img.a76dbc2a0c3e9eb43906.png",
+    "static/media/run-bud.png": "/ReactApp/static/media/run-bud.2c9b2d5824ee66437df6.png",
+    "static/media/pedestrian-img.png": "/ReactApp/static/media/pedestrian-img.c4da95188c3da8d2ef54.png",
+    "static/media/calls_serv.png": "/ReactApp/static/media/calls_serv.a61abde6bca6e0713c84.png",
+    "static/media/meetup-logo-m-swarm.png": "/ReactApp/static/media/meetup-logo-m-swarm.714daac8506c3ee20ee3.png",
+    "index.html": "/ReactApp/index.html",
+    "main.38d084b0.css.map": "/ReactApp/static/css/main.38d084b0.css.map",
+    "main.cd39c7b2.js.map": "/ReactApp/static/js/main.cd39c7b2.js.map",
+    "787.742825f3.chunk.js.map": "/ReactApp/static/js/787.742825f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38d084b0.css",
+    "static/js/main.cd39c7b2.js"
+  ]
+}
