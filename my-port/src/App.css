@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 13vh;
+  min-height: 8vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -224,9 +224,9 @@ ul {
   align-content: center;
   
 }
-.project a {
+/* .project a {
 
-}
+} */
 
 .project h3 {
   text-align: center;
@@ -310,9 +310,9 @@ ul {
   background-size: cover;
 }
 
-#meet-me-outdoors-text:hover {
+/* #meet-me-outdoors-text:hover {
   /* padding-top: 120px; */
-}
+/* } */
 
 
 #run-bud-img {
@@ -356,9 +356,9 @@ ul {
   font-size: 20px;
 }
 
-.contact-social a {
+/* .contact-social a {
 
-}
+} */
 .contact-social div {
   justify-content: center;
   height: 50px;

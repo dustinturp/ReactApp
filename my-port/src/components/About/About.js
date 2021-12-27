@@ -1,11 +1,11 @@
-import StlMap from "./Map";
+// import StlMap from "./Map";
 
 
 const About = () => {
   return (
     <div>
       {/* <div className="map-container"></div> */}
-      <h2 className="section-title">About Me</h2>
+      <h2 className="section-title" id='about'>About Me</h2>
       <div>
         <p className="about-me-text">
           Front end web developer bringing a spatial set of skills to
